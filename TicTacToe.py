@@ -57,8 +57,6 @@ def input_data():
             if check_board:
                 result=input("Box filled completely, do you want to start over")
                 break
-            # if result=='y':
-            #     break
         if result=='n':
             break
 if __name__ == "__main__":
